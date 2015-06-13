@@ -1,31 +1,66 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #cecece;
 }
+
 .main {
-    margin: 15px auto;
+    margin: 0 auto;
     max-width: 960px;
     width: 960px;
 }
 
-.image {
+.left-panel, .right-panel {
+    padding: 0;
+}
+.right-panel {
+    padding-left: 12px;
+}
+
+.row,
+.image,
+.image img {
     margin: 0;
-    padding: 12px 12px 0px;
+    padding: 0;
 }
 
 .left-panel img {
-    width: 230px;
-    height: 230px;
+    padding: 12px 6px 0 0;
+    width: 100%;
+}
+
+.left-panel .image.row-last img {
+    padding-left: 6px;
 }
 
 .left-panel .last img {
-    width: 478px;
-    height: 387px;
+    padding: 12px 0 0;
+    width: 480px;
+    height: 378px;
+}
+
+
+
+.right-panel .image img {
+    padding: 12px 6px 0 6px;
+    width: 156px;
+    height: 156px;
+}
+
+.right-panel .image.row-first img {
+    padding-left: 0;
+}
+.right-panel .image.row-last img {
+    padding-right: 0;
+}
+
+
+.image.row-last img {
+    padding-right: 0;
 }
 
 .hero img {
     width: 100%;
     height: 468px;
-    padding: 0 12px;
+    padding: 0;
 }
