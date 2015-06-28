@@ -3,10 +3,33 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <title>ZW-1</title>
 </head>
 <body>
-<h1>Under construction...</h1>
+<a class="back-link"><img class="fake-image" src="" alt="under construction..."/></a>
+<script src="js/jquery.min.js"></script>
+<script language='javascript'>
+    function getUrlVars() {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+    $('.fake-image').attr('src', 'http://7qnc6c.com1.z0.glb.clouddn.com/' + getUrlVars()['image'])
+    if(getUrlVars()['image'] == 'n6.jpg') {
+        $('.back-link').attr('href', 'wip.html?image=n7.jpg');
+    } else if(getUrlVars()['image'] == 'n7.jpg') {
+        $('.back-link').attr('href', 'index.html');
+    } else {
+        $('.back-link').attr('href', 'wip.html?image=n6.jpg');
+    }
+</script>
 </body>
 </html>
