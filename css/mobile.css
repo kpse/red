@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.splash img {
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.nav-container {
+    width: 100%;
+    border: 2px solid #1c2b53;
+}
+
+.nav {
+    width: 80%;
+    margin: 100px auto 20px auto;
+}
+
+li.nav-item img {
+    width: 72px;
+    height: 72px;
+    display: block;
+}
+
+.nav-item span {
+    border-top: 4px solid white;
+    width: 54px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-item.active span {
+    border-top: 4px solid #9fd9f7;
+}
+
+.nav-item {
+    text-align: center;
+    font-family: YaHei, serif;
+    font-size: 18px;
+}
+
+/*.nav-item.bouquet {*/
+    /*background-image: url('../images/bouquet.jpg');*/
+    /*background-size: 72px;*/
+/*}*/
+/*.nav-item.immortal {*/
+    /*background-image: url('../images/immortal.jpg');*/
+    /*background-size: 72px;*/
+/*}*/
+/*.nav-item.wedding {*/
+    /*background-image: url('../images/wedding.jpg');*/
+    /*background-size: 72px;*/
+/*}*/
+/*.nav-item.style {*/
+    /*background-image: url('../images/style.jpg');*/
+    /*background-size: 72px;*/
+/*}*/
+
+.item img {
+    width: 100%;
+    height: 468px;
+    padding: 0;
+    cursor: hand;
+}
+
+.image {
+    padding: 0;
+    border-bottom: 2px solid #1c2b53;
+}
+.carousel-inner {
+    height: 163px;
+}
+.image,
+.carousel-inner, {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.footer-nav {
+    font-family: YaHei, serif;
+    width: 100%;
+    border: 2px solid #1c2b53;
+    margin: 0 auto;
+}
+
+.footer-nav .copyright, .footer-nav .call-number {
+    margin-top: 20px;
+    color: #1c2b53;
+}
+
+.footer-nav .qr-code {
+    margin-top: 20px;
+}
+
+.footer-nav .qr-code .qr-item {
+    padding: 0 5px;
+}
+
+.footer-nav .qr-code .qr-item p, .footer-nav .qr-code .qr-item img {
+    margin: 0 auto;
+    text-align: center;
+    width: 50px;
+}
+
+.qr-item {
+    text-align: center;
+    font-size: 8px;
+    color: #1c2b53;
+    width: 43%;
+}
+
+.copyright p {
+    font-size: 12px;
+    line-height: 14px;
+}
