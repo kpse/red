@@ -15,19 +15,19 @@ body {
 }
 
 .nav {
-    width: 80%;
-    margin: 100px auto 20px auto;
+    width: 90%;
+    margin: 75px auto 20px auto;
 }
 
 li.nav-item img {
-    width: 72px;
-    height: 72px;
+    width: 80px;
+    height: 80px;
     display: block;
 }
 
 .nav-item span {
     border-top: 4px solid white;
-    width: 54px;
+    width: 64px;
     display: block;
     margin: 0 auto;
 }
@@ -40,6 +40,7 @@ li.nav-item img {
     text-align: center;
     font-family: YaHei, serif;
     font-size: 18px;
+    color: #6c6d6e;
 }
 
 /*.nav-item.bouquet {*/
@@ -71,7 +72,7 @@ li.nav-item img {
     border-bottom: 2px solid #1c2b53;
 }
 .carousel-inner {
-    height: 163px;
+    height: 183px;
 }
 .image,
 .carousel-inner, {
